@@ -937,6 +937,7 @@ function startGame(category) {
     selectedCategory = category;
     document.getElementById("category-menu").classList.add("hidden");
     document.getElementById("game").classList.remove("hidden");
+    // document.getElementById("options").classList.add("hidden");
     document.getElementById("stop-game-id").classList.remove("hidden");
 
     if (selectedCategory === "random") {
@@ -956,6 +957,14 @@ function startGame(category) {
     currentIndex = 0;
     correctAnswers = 0;
     nextWord();
+}
+
+function showAnswers() {
+    const showAnswersBtn = document.getElementById("show-answers-btn");
+    const optionsContainer = document.getElementById("options");
+
+    showAnswersBtn.classList.add("hidden");
+    optionsContainer.classList.remove("hidden");
 }
 
 function stopGame() {
@@ -981,6 +990,8 @@ function nextWord() {
     const wordObj = currentWords[currentIndex];
     document.getElementById("word").innerText = wordObj.german;
     document.getElementById("game-mode-title").innerText = gameMode === "quickPlay" ? "Quick Play" : "Infinite Mode";
+    document.getElementById("options").classList.add("hidden");
+    document.getElementById("show-answers-btn").classList.remove("hidden");
 
     const options = shuffle([...generateOptions(wordObj.german, wordObj)]);
     const optionsDiv = document.getElementById("options");

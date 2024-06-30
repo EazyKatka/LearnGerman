@@ -11,28 +11,28 @@ body {
 }
 
 .dark-mode {
+    display: flex;
+    flex-direction: column;
     background-color: #222;
     color: #fff;
+    justify-content: center;
+    align-items: center;
 }
 
 .stop-game-btn {
-    position: absolute;
-    top: 20px; /* Adjust top position as needed */
-    left: 50%;
-    transform: translateX(-50%);
     padding: 10px 20px;
     font-size: 1rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
-    background-color: #555;
+    background-color: #f05050;
     color: #fff;
     transition: background-color 0.3s;
     z-index: 1000; /* Ensure button is above other content */
 }
 
 .stop-game-btn:hover {
-    background-color: #777;
+    background-color: #fc8989;
 }
 
 .container {
@@ -46,7 +46,7 @@ body {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 h1, h2 {
@@ -93,6 +93,21 @@ h1, h2 {
 .word-text {
     font-size: 2rem;
     margin-bottom: 40px;
+}
+
+.show-answers-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #3c4b6b;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.show-answers-btn:hover {
+    background-color: #5a6888;
 }
 
 .options-container {
