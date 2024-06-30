@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Learning App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app" class="dark-mode">
+        <button id="stop-game-id" class="stop-game-btn hidden" onclick="stopGame()">Stop Game</button>
+        <div id="menu" class="container">
+            <h1>Select Game Mode</h1>
+            <div class="button-container">
+                <button class="mode-btn" onclick="chooseCategory('quickPlay')">Quick Play</button>
+                <button class="mode-btn" onclick="chooseCategory('infiniteMode')">Infinite Mode</button>
+            </div>
+        </div>
+        
+        <div id="category-menu" class="container hidden">
+            <h2>Select a Category</h2>
+            <div class="category-buttons">
+                <button class="category-btn" onclick="startGame('random')">Random</button>
+                <button class="category-btn" onclick="startGame('Animals')">Animals</button>
+                <button class="category-btn" onclick="startGame('Food and Drinks')">Food and Drinks</button>
+                <button class="category-btn" onclick="startGame('Household Items')">Household Items</button>
+                <button class="category-btn" onclick="startGame('Nature')">Nature</button>
+                <button class="category-btn" onclick="startGame('Clothing')">Clothing</button>
+                <button class="category-btn" onclick="startGame('Transportation')">Transportation</button>
+                <button class="category-btn" onclick="startGame('Professions')">Professions</button>
+                <button class="category-btn" onclick="startGame('Emotions and Feelings')">Emotions and Feelings</button>
+                <button class="category-btn" onclick="startGame('Colors')">Colors</button>
+                <button class="category-btn" onclick="startGame('Body Parts')">Body Parts</button>
+                <button class="category-btn" onclick="startGame('Common Verbs')">Common Verbs</button>
+                <button class="category-btn" onclick="startGame('Adjectives')">Adjectives</button>
+                <button class="category-btn" onclick="startGame('Days of the Week')">Days of the Week</button>
+                <button class="category-btn" onclick="startGame('Months')">Months</button>
+                <button class="category-btn" onclick="startGame('Numbers')">Numbers</button>
+                <button class="category-btn" onclick="startGame('Common Phrases')">Common Phrases</button>
+                <button class="category-btn" onclick="startGame('Family Members')">Family Members</button>
+                <button class="category-btn" onclick="startGame('School and Education')">School and Education</button>
+                <button class="category-btn" onclick="startGame('Sports and Hobbies')">Sports and Hobbies</button>
+                <button class="category-btn" onclick="startGame('Technology')">Technology</button>
+            </div>
+        </div>
+        
+        <div id="game" class="container hidden">
+            <h2 id="game-mode-title">Game Mode</h2>
+            <div id="word-container">
+                <p id="word" class="word-text"></p>
+            </div>
+            <div id="options" class="options-container">
+                <!-- Options will be dynamically added here -->
+            </div>
+        </div>
+        
+        <div id="popup" class="popup hidden">
+            <div id="popup-content" class="popup-content">
+                <span id="result" class="result"></span>
+                <p id="correct-translation" class="correct-translation hidden"></p>
+            </div>
+        </div>
+        
+        <div id="summary" class="container hidden">
+            <h2>Game Summary</h2>
+            <p id="summary-text"></p>
+            <button class="restart-btn" onclick="resetGame()">Back to Menu</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

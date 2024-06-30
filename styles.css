@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+.stop-game-btn {
+    position: absolute;
+    top: 20px; /* Adjust top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    transition: background-color 0.3s;
+    z-index: 1000; /* Ensure button is above other content */
+}
+
+.stop-game-btn:hover {
+    background-color: #777;
+}
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hidden {
+    display: none;
+}
+
+h1, h2 {
+    color: #f0f0f0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mode-btn, .category-btn, .restart-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.mode-btn:hover, .category-btn:hover, .restart-btn:hover {
+    background-color: #777;
+}
+
+.category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.category-btn {
+    padding: 8px 16px;
+    font-size: 1rem;
+}
+
+.game-mode-title {
+    margin-bottom: 10px;
+}
+
+.word-text {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.options-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.options-container button:hover {
+    background-color: #777;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 1000; /* Ensure popup is above other content */
+}
+
+.popup-content {
+    background-color: #333; /* Dark background for content */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.result {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #fff; /* White text for result */
+}
+
+.correct-translation {
+    color: #ddd; /* Lighter text color for correct translation */
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.correct-translation.hidden {
+    display: none; /* Hide correct translation initially */
+}
