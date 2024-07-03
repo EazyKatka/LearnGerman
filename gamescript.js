@@ -892,355 +892,355 @@ const germanWords = {
 
 const germanGrammar = {
     beginner: [
-        { 
-            question: "Conjugate 'sein' for 'ich'", 
-            correct: "bin", 
+        {
+            question: "Conjugate 'sein' for 'ich'",
+            correct: "bin",
             options: ["bin", "bist", "ist", "sind"],
             explanation: "Verb for 'to be' in first person singular (I)."
         },
-        { 
-            question: "Conjugate 'haben' for 'du'", 
-            correct: "hast", 
+        {
+            question: "Conjugate 'haben' for 'du'",
+            correct: "hast",
             options: ["hast", "hat", "haben", "habt"],
             explanation: "Verb for 'to have' in second person singular (you)."
         },
-        { 
-            question: "Translate 'I speak German'", 
-            correct: "Ich spreche Deutsch", 
+        {
+            question: "Translate 'I speak German'",
+            correct: "Ich spreche Deutsch",
             options: ["Ich spreche Deutsch", "Du sprichst Deutsch", "Er spricht Deutsch", "Sie spricht Deutsch"],
             explanation: "Select the correct alternative for 'I'"
         },
-        { 
-            question: "Translate 'He is a student'", 
-            correct: "Er ist Student", 
+        {
+            question: "Translate 'He is a student'",
+            correct: "Er ist Student",
             options: ["Er ist Lehrer", "Sie ist Studentin", "Es ist Student", "Er ist Student"],
             explanation: "Select the correct alternative for 'he'"
         },
-        { 
-            question: "Which pronoun is used for 'she'?", 
-            correct: "sie", 
+        {
+            question: "Which pronoun is used for 'she'?",
+            correct: "sie",
             options: ["ich", "du", "sie", "wir"],
             explanation: "Pronoun used to refer to a female person."
         },
-        { 
-            question: "Which preposition is used with 'Haus'?", 
-            correct: "in", 
+        {
+            question: "Which preposition is used with 'Haus'?",
+            correct: "in",
             options: ["auf", "bei", "in", "an"],
             explanation: "Preposition for location relation."
         },
-        { 
-            question: "Conjugate 'machen' for 'wir'", 
-            correct: "machen", 
+        {
+            question: "Conjugate 'machen' for 'wir'",
+            correct: "machen",
             options: ["mache", "macht", "machen", "machst"],
             explanation: "The Verb 'machen' means 'to do'."
         },
-        { 
-            question: "Which preposition is used with 'Schule'?", 
-            correct: "zur", 
+        {
+            question: "Which preposition is used with 'Schule'?",
+            correct: "zur",
             options: ["auf", "bei", "in", "zur"],
             explanation: "Preposition to describe direction to school."
         },
-        { 
-            question: "Which article is used with 'Stadt'?", 
-            correct: "die", 
+        {
+            question: "Which article is used with 'Stadt'?",
+            correct: "die",
             options: ["der", "die", "das", "den"],
             explanation: "'Stadt' means 'City'"
         },
-        { 
-            question: "Conjugate 'trinken' for 'du'", 
-            correct: "trinkst", 
+        {
+            question: "Conjugate 'trinken' for 'du'",
+            correct: "trinkst",
             options: ["trinke", "trinkst", "trinkt", "trinken"],
             explanation: "The Verb 'trinken' means 'to drink'."
         },
-        { 
-            question: "Translate 'They read a book'", 
-            correct: "Sie lesen ein Buch", 
+        {
+            question: "Translate 'They read a book'",
+            correct: "Sie lesen ein Buch",
             options: ["Er liest ein Buch", "Sie lesen ein Buch", "Wir lesen ein Buch", "Ich lese ein Buch"],
             explanation: "Select the correct alternative for 'they'."
         },
-        { 
-            question: "Which preposition is used with 'Park'?", 
-            correct: "im", 
+        {
+            question: "Which preposition is used with 'Park'?",
+            correct: "im",
             options: ["auf", "bei", "in", "im"],
             explanation: "Preposition for location relation."
         },
-        { 
-            question: "Conjugate 'spielen' for 'sie'", 
-            correct: "spielen", 
+        {
+            question: "Conjugate 'spielen' for 'sie'",
+            correct: "spielen",
             options: ["spielst", "spielt", "spielen", "spiele"],
             explanation: "The Verb 'spielen' means 'to play'."
         },
-        { 
-            question: "Which article is used with 'Hund'?", 
-            correct: "der", 
+        {
+            question: "Which article is used with 'Hund'?",
+            correct: "der",
             options: ["der", "die", "das", "den"],
             explanation: "'Hund' means 'dog'"
         },
-        { 
-            question: "Conjugate 'gehen' for 'ich'", 
-            correct: "gehe", 
+        {
+            question: "Conjugate 'gehen' for 'ich'",
+            correct: "gehe",
             options: ["gehe", "gehst", "geht", "gehen"],
             explanation: "The Verb 'gehen' means 'to go'."
         },
-        { 
-            question: "Translate 'We speak English'", 
-            correct: "Wir sprechen Englisch", 
+        {
+            question: "Translate 'We speak English'",
+            correct: "Wir sprechen Englisch",
             options: ["Wir sprechen Englisch", "Du sprichst Englisch", "Er spricht Englisch", "Sie spricht Englisch"],
             explanation: "Select the correct alternative for 'we'."
         },
-        { 
-            question: "Which preposition is used with 'Strand'?", 
-            correct: "am", 
+        {
+            question: "Which preposition is used with 'Strand'?",
+            correct: "am",
             options: ["auf", "bei", "in", "am"],
             explanation: "Preposition for location relation."
         },
-        { 
-            question: "Conjugate 'lesen' for 'wir'", 
-            correct: "lesen", 
+        {
+            question: "Conjugate 'lesen' for 'wir'",
+            correct: "lesen",
             options: ["lese", "liest", "lesest", "lesen"],
             explanation: "The Verb 'lesen' means 'to read'."
         },
-        { 
-            question: "Which article is used with 'Apfel'?", 
-            correct: "der", 
+        {
+            question: "Which article is used with 'Apfel'?",
+            correct: "der",
             options: ["der", "die", "das", "den"],
             explanation: "'Apfel' means 'apple'"
         },
-        { 
-            question: "Translate 'She drinks water'", 
-            correct: "Sie trinkt Wasser", 
+        {
+            question: "Translate 'She drinks water'",
+            correct: "Sie trinkt Wasser",
             options: ["Ich trinke Wasser", "Du trinkst Wasser", "Er trinkt Wasser", "Sie trinkt Wasser"],
             explanation: "Select the correct alternative for 'she'."
         }
     ],
     intermediate: [
-        { 
-            question: "Conjugate 'schreiben' for 'ich'", 
-            correct: "schreibe", 
+        {
+            question: "Conjugate 'schreiben' for 'ich'",
+            correct: "schreibe",
             options: ["schreibe", "schreibst", "schreibt", "schreiben"],
             explanation: "The Verb 'schreiben' means 'to write'."
         },
-        { 
-            question: "Which case is used after 'mit'?", 
-            correct: "dative", 
+        {
+            question: "Which case is used after 'mit'?",
+            correct: "dative",
             options: ["nominative", "accusative", "dative", "genitive"],
             explanation: "'mit' means 'with'."
         },
-        { 
-            question: "Which preposition is used with 'Wald'?", 
-            correct: "im", 
+        {
+            question: "Which preposition is used with 'Wald'?",
+            correct: "im",
             options: ["auf", "bei", "in", "im"],
             explanation: "Preposition for location relation."
         },
-        { 
-            question: "Which pronoun is used for 'you'?", 
-            correct: "ihr", 
+        {
+            question: "Which pronoun is used for 'you'?",
+            correct: "ihr",
             options: ["ich", "du", "er", "ihr"],
             explanation: "Pronoun used to refer to multiple persons."
         },
-        { 
-            question: "Conjugate 'kommen' for 'sie'", 
-            correct: "kommen", 
+        {
+            question: "Conjugate 'kommen' for 'sie'",
+            correct: "kommen",
             options: ["kommt", "kommst", "kommt", "kommen"],
             explanation: "The Verb 'kommen' means 'to come'."
         },
-        { 
-            question: "Which article is used with 'Stuhl'?", 
-            correct: "der", 
+        {
+            question: "Which article is used with 'Stuhl'?",
+            correct: "der",
             options: ["der", "die", "das", "den"],
             explanation: "'Stuhl' means 'chair'"
         },
-        { 
-            question: "Translate 'They eat pizza'", 
-            correct: "Sie essen Pizza", 
+        {
+            question: "Translate 'They eat pizza'",
+            correct: "Sie essen Pizza",
             options: ["Ich esse Pizza", "Du isst Pizza", "Er isst Pizza", "Sie essen Pizza"],
             explanation: "Select the correct alternative for 'they'."
         },
-        { 
-            question: "Which preposition is used with 'See'?", 
-            correct: "am", 
+        {
+            question: "Which preposition is used with 'See'?",
+            correct: "am",
             options: ["auf", "bei", "in", "am"],
             explanation: "Preposition for location relation."
         },
-        { 
-            question: "Conjugate 'lernen' for 'wir'", 
-            correct: "lernen", 
+        {
+            question: "Conjugate 'lernen' for 'wir'",
+            correct: "lernen",
             options: ["lerne", "lernst", "lernt", "lernen"],
             explanation: "The Verb 'lernen' means 'to learn'."
         },
-        { 
-            question: "Which article is used with 'Tasse'?", 
-            correct: "die", 
+        {
+            question: "Which article is used with 'Tasse'?",
+            correct: "die",
             options: ["der", "die", "das", "den"],
             explanation: "'Tasse' means 'cup'"
         },
-        { 
-            question: "Translate 'She writes a letter'", 
-            correct: "Sie schreibt einen Brief", 
+        {
+            question: "Translate 'She writes a letter'",
+            correct: "Sie schreibt einen Brief",
             options: ["Ich schreibe einen Brief", "Du schreibst einen Brief", "Er schreibt einen Brief", "Sie schreibt einen Brief"],
             explanation: "Select the correct alternative for 'she'."
         },
-        { 
-            question: "Which preposition is used with 'Himmel'?", 
-            correct: "am", 
+        {
+            question: "Which preposition is used with 'Himmel'?",
+            correct: "am",
             options: ["auf", "bei", "in", "am"],
             explanation: "Preposition for location relation."
         },
-        { 
-            question: "Conjugate 'arbeiten' for 'sie'", 
-            correct: "arbeiten", 
+        {
+            question: "Conjugate 'arbeiten' for 'sie'",
+            correct: "arbeiten",
             options: ["arbeitet", "arbeitest", "arbeitet", "arbeiten"],
             explanation: "The Verb 'arbeiten' means 'to work'."
         },
-        { 
-            question: "Which article is used with 'Katze'?", 
-            correct: "die", 
+        {
+            question: "Which article is used with 'Katze'?",
+            correct: "die",
             options: ["der", "die", "das", "den"],
             explanation: "'Katze' means 'cat'"
         },
-        { 
-            question: "Translate 'We travel to Berlin'", 
-            correct: "Wir reisen nach Berlin", 
+        {
+            question: "Translate 'We travel to Berlin'",
+            correct: "Wir reisen nach Berlin",
             options: ["Ich reise nach Berlin", "Du reist nach Berlin", "Er reist nach Berlin", "Wir reisen nach Berlin"],
             explanation: "Select the correct alternative for 'we'."
         },
-        { 
-            question: "Which preposition is used with 'Buch'?", 
-            correct: "im", 
+        {
+            question: "Which preposition is used with 'Buch'?",
+            correct: "im",
             options: ["auf", "bei", "in", "im"],
             explanation: "Preposition for location relation."
         },
-        { 
-            question: "Conjugate 'lesen' for 'sie'", 
-            correct: "lesen", 
+        {
+            question: "Conjugate 'lesen' for 'sie'",
+            correct: "lesen",
             options: ["lese", "liest", "lesest", "lesen"],
             explanation: "The Verb 'lesen' means 'to read'."
         },
-        { 
-            question: "Which article is used with 'Blume'?", 
-            correct: "die", 
+        {
+            question: "Which article is used with 'Blume'?",
+            correct: "die",
             options: ["der", "die", "das", "den"],
             explanation: "'Blume' means 'flower'"
         },
-        { 
-            question: "Translate 'He goes to school'", 
-            correct: "Er geht zur Schule", 
+        {
+            question: "Translate 'He goes to school'",
+            correct: "Er geht zur Schule",
             options: ["Ich gehe zur Schule", "Du gehst zur Schule", "Er geht zur Schule", "Sie geht zur Schule"],
             explanation: "Select the correct alternative for 'he'."
         }
     ],
     advanced: [
-        { 
-            question: "Which case is used after 'ohne'?", 
-            correct: "accusative", 
+        {
+            question: "Which case is used after 'ohne'?",
+            correct: "accusative",
             options: ["nominative", "accusative", "dative", "genitive"],
             explanation: "'ohne' means 'without'."
         },
-        { 
-            question: "Which preposition is used with 'Buch'?", 
-            correct: "bei", 
+        {
+            question: "Which preposition is used with 'Buch'?",
+            correct: "bei",
             options: ["zwischen", "gegenüber", "während", "bei"],
             explanation: "Preposition for relation to 'Buch'."
         },
-        { 
-            question: "Conjugate 'sehen' for 'wir'", 
-            correct: "sehen", 
+        {
+            question: "Conjugate 'sehen' for 'wir'",
+            correct: "sehen",
             options: ["sehe", "sieht", "siehst", "sehen"],
             explanation: "The Verb 'sehen' means 'to see'."
         },
-        { 
-            question: "Which article is used with 'Universität'?", 
-            correct: "die", 
+        {
+            question: "Which article is used with 'Universität'?",
+            correct: "die",
             options: ["der", "die", "das", "den"],
             explanation: "'Universität' means 'University'"
         },
-        { 
-            question: "Which preposition is used with 'Tisch'?", 
-            correct: "auf", 
+        {
+            question: "Which preposition is used with 'Tisch'?",
+            correct: "auf",
             options: ["unter", "vor", "neben", "auf"],
             explanation: "Preposition for location relation."
         },
-        { 
-            question: "Conjugate 'laufen' for 'sie'", 
-            correct: "laufen", 
+        {
+            question: "Conjugate 'laufen' for 'sie'",
+            correct: "laufen",
             options: ["läuft", "läufst", "laufen", "laufe"],
             explanation: "The Verb 'laufen' means 'to run'."
         },
-        { 
-            question: "Which article is used with 'Gebäude'?", 
-            correct: "das", 
+        {
+            question: "Which article is used with 'Gebäude'?",
+            correct: "das",
             options: ["der", "die", "das", "den"],
             explanation: "'Gebäude' means 'building'"
         },
-        { 
-            question: "Translate 'We listen to music'", 
-            correct: "Wir hören Musik", 
+        {
+            question: "Translate 'We listen to music'",
+            correct: "Wir hören Musik",
             options: ["Ich höre Musik", "Du hörst Musik", "Er hört Musik", "Wir hören Musik"],
             explanation: "Select the correct alternative for 'we'."
         },
-        { 
-            question: "Which preposition is used with 'Kino'?", 
-            correct: "im", 
+        {
+            question: "Which preposition is used with 'Kino'?",
+            correct: "im",
             options: ["an", "vor", "neben", "im"],
             explanation: "Preposition for location relation."
         },
-        { 
-            question: "Conjugate 'sprechen' for 'sie'", 
-            correct: "sprechen", 
+        {
+            question: "Conjugate 'sprechen' for 'sie'",
+            correct: "sprechen",
             options: ["spricht", "sprichst", "sprecht", "sprechen"],
             explanation: "The Verb 'sprechen' means 'to speak'."
         },
-        { 
-            question: "Which article is used with 'Krankenhaus'?", 
-            correct: "das", 
+        {
+            question: "Which article is used with 'Krankenhaus'?",
+            correct: "das",
             options: ["der", "die", "das", "den"],
             explanation: "'Krankenhaus' means 'hospital'"
         },
-        { 
-            question: "Translate 'He writes a letter'", 
-            correct: "Er schreibt einen Brief", 
+        {
+            question: "Translate 'He writes a letter'",
+            correct: "Er schreibt einen Brief",
             options: ["Ich schreibe einen Brief", "Du schreibst einen Brief", "Er schreibt einen Brief", "Sie schreibt einen Brief"],
             explanation: "Select the correct alternative for 'he'."
         },
-        { 
-            question: "Which preposition is used with 'Museum'?", 
-            correct: "im", 
+        {
+            question: "Which preposition is used with 'Museum'?",
+            correct: "im",
             options: ["an", "neben", "vor", "im"],
             explanation: "Preposition for location relation."
         },
-        { 
-            question: "Conjugate 'verstehen' for 'wir'", 
-            correct: "verstehen", 
+        {
+            question: "Conjugate 'verstehen' for 'wir'",
+            correct: "verstehen",
             options: ["verstehe", "versteht", "verstehst", "verstehen"],
             explanation: "The Verb 'verstehen' means 'to understand'."
         },
-        { 
-            question: "Which article is used with 'Sonne'?", 
-            correct: "die", 
+        {
+            question: "Which article is used with 'Sonne'?",
+            correct: "die",
             options: ["der", "die", "das", "den"],
             explanation: "'Sonne' means 'sun'"
         },
-        { 
-            question: "Translate 'They cook dinner'", 
-            correct: "Sie kochen Abendessen", 
+        {
+            question: "Translate 'They cook dinner'",
+            correct: "Sie kochen Abendessen",
             options: ["Ich koche Abendessen", "Du kochst Abendessen", "Er kocht Abendessen", "Sie kochen Abendessen"],
             explanation: "Select the correct alternative for 'they'."
         },
-        { 
-            question: "Which preposition is used with 'Berg'?", 
-            correct: "auf", 
+        {
+            question: "Which preposition is used with 'Berg'?",
+            correct: "auf",
             options: ["unter", "vor", "neben", "auf"],
             explanation: "Preposition for location relation."
         },
-        { 
-            question: "Conjugate 'treffen' for 'sie'", 
-            correct: "treffen", 
+        {
+            question: "Conjugate 'treffen' for 'sie'",
+            correct: "treffen",
             options: ["triffst", "trifft", "treffen", "treffe"],
             explanation: "The Verb 'treffen' means 'to meet'."
         },
-        { 
-            question: "Which article is used with 'Tisch'?", 
-            correct: "der", 
+        {
+            question: "Which article is used with 'Tisch'?",
+            correct: "der",
             options: ["der", "die", "das", "den"],
             explanation: "'Tisch' means 'table'"
         }
@@ -1304,7 +1304,7 @@ function startGame(category) {
 
     currentIndex = 0;
     correctAnswers = 0;
-    document.getElementById("show-answers-btn").classList.remove("hidden"); 
+    document.getElementById("show-answers-btn").classList.remove("hidden");
     nextWord();
 }
 
@@ -1353,20 +1353,30 @@ function nextWord() {
     document.getElementById("options").classList.add("hidden");
     document.getElementById("show-answers-btn").classList.remove("hidden");
 
-    const options = shuffle([...wordObj.options]);
-    const optionsDiv = document.getElementById("options");
-    optionsDiv.innerHTML = "";
-    options.forEach(option => {
-        const button = document.createElement("button");
-        button.innerText = option;
-        button.onclick = () => checkAnswer(option, wordObj.correct || wordObj.swedish);
-        optionsDiv.appendChild(button);
-    });
-
-    document.getElementById("explanation").innerText = wordObj.explanation;
-
+    if (gameMode === "grammar") {
+        const options = shuffle([...wordObj.options]);
+        const optionsDiv = document.getElementById("options");
+        optionsDiv.innerHTML = "";
+        options.forEach(option => {
+            const button = document.createElement("button");
+            button.innerText = option;
+            button.onclick = () => checkAnswer(option, wordObj.correct || wordObj.swedish);
+            optionsDiv.appendChild(button);
+        });
+        document.getElementById("explanation").innerText = wordObj.explanation;
+        updateCounter();
+    } else {
+        const options = shuffle([...generateOptions(wordObj.german, wordObj)]);
+        const optionsDiv = document.getElementById("options");
+        optionsDiv.innerHTML = "";
+        options.forEach(option => {
+            const button = document.createElement("button");
+            button.innerText = option;
+            button.onclick = () => checkAnswer(option, wordObj.swedish);
+            optionsDiv.appendChild(button);
+        });
+    }
     currentIndex++;
-    updateCounter();
 }
 
 function generateOptions(correctGerman, wordObj) {
