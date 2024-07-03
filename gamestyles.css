@@ -86,6 +86,23 @@ h1, h2 {
     font-size: 1rem;
 }
 
+.grammar-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grammar-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+}
+
+#grammar-counter {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
 .game-mode-title {
     margin-bottom: 10px;
 }

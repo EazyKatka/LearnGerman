@@ -14,6 +14,16 @@
             <div class="button-container">
                 <button class="mode-btn" onclick="chooseCategory('quickPlay')">Quick Play</button>
                 <button class="mode-btn" onclick="chooseCategory('infiniteMode')">Infinite Mode</button>
+                <button class="mode-btn" onclick="showGrammarMenu()">Practice Grammar</button>
+            </div>
+        </div>
+
+        <div id="grammar-menu" class="container hidden">
+            <h2>Select Grammar Difficulty</h2>
+            <div class="grammar-buttons">
+                <button class="grammar-btn" onclick="startGrammarGame('beginner')">Beginner</button>
+                <button class="grammar-btn" onclick="startGrammarGame('intermediate')">Intermediate</button>
+                <button class="grammar-btn" onclick="startGrammarGame('advanced')">Advanced</button>
             </div>
         </div>
         
@@ -30,7 +40,11 @@
         </div>
         
         <div id="game" class="container hidden">
+            <div id="grammar-counter" class="hidden">
+                <p>Correct Answers: <span id="correct-count">0</span>/<span id="total-count">0</span></p>
+            </div>
             <h2 id="game-mode-title">Game Mode</h2>
+            <div id="explanation" class="explanation"></div>
             <div id="word-container">
                 <p id="word" class="word-text"></p>
             </div>
